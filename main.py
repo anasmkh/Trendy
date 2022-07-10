@@ -188,11 +188,12 @@ if st.button('Show Model Accuracy'):
     st.write(accuracy * 100, '%')
 
 y_pred = model.predict(dict)
-print(y_pred)
+# print(y_pred)
 
-if st.button('Get Prediction'):
-    y = np.round(y_pred)
-    result = str(y)
-    st.write('You Need to Order:', result, 'peace of: ', 'product_code', product_code, ' ', product_type,
-             Product_Subcategory)
+if Yearly_saled!=0 and Product_cost!=0 and Holding_cost!=0:
+    if st.button('Get Prediction'):
+        y = np.round(y_pred)
+        result = str(y)
+        st.write('You Need to Order:', result, 'peace of: ', 'product_code', product_code, ' ', product_type,
+                 Product_Subcategory)
     # st.write(y)
