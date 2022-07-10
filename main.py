@@ -16,39 +16,39 @@ elif product_type == 'Children':
 
 Product_Subcategory = st.sidebar.selectbox('SubCategories in Trendy', ('T_shirt', 'Jeans', 'Jackets', 'Bags', 'Shoes'))
 subcategory = 0
-if Product_Subcategory == 'T_shirt' and category == 1:
+if Product_Subcategory == 'T_shirt' and category == 0:
     subcategory = 1
-if Product_Subcategory == 'T_shirt' and category == 2:
+if Product_Subcategory == 'T_shirt' and category == 1:
     subcategory = 2
-if Product_Subcategory == 'T_shirt' and category == 3:
+if Product_Subcategory == 'T_shirt' and category == 2:
     subcategory = 3
 
-if Product_Subcategory == 'Jeans' and category == 1:
+if Product_Subcategory == 'Jeans' and category == 0:
     subcategory = 4
-if Product_Subcategory == 'Jeans' and category == 2:
+if Product_Subcategory == 'Jeans' and category == 1:
     subcategory = 5
-if Product_Subcategory == 'Jeans' and category == 3:
+if Product_Subcategory == 'Jeans' and category == 2:
     subcategory = 6
 
-if Product_Subcategory == 'Jackets' and category == 1:
+if Product_Subcategory == 'Jackets' and category == 0:
     subcategory = 7
-if Product_Subcategory == 'Jackets' and category == 2:
+if Product_Subcategory == 'Jackets' and category == 1:
     subcategory = 8
-if Product_Subcategory == 'Jackets' and category == 3:
+if Product_Subcategory == 'Jackets' and category == 2:
     subcategory = 9
 
-if Product_Subcategory == 'Bags' and category == 1:
+if Product_Subcategory == 'Bags' and category == 0:
     subcategory = 10
-if Product_Subcategory == 'Bags' and category == 2:
+if Product_Subcategory == 'Bags' and category == 1:
     subcategory = 11
-if Product_Subcategory == 'Bags' and category == 3:
+if Product_Subcategory == 'Bags' and category == 2:
     subcategory = 12
 
-if Product_Subcategory == 'Shoes' and category == 1:
+if Product_Subcategory == 'Shoes' and category == 0:
     subcategory = 16
-if Product_Subcategory == 'Shoes' and category == 2:
+if Product_Subcategory == 'Shoes' and category == 1:
     subcategory = 17
-if Product_Subcategory == 'Shoes' and category == 3:
+if Product_Subcategory == 'Shoes' and category == 2:
     subcategory = 18
 
 product_code = '0'
